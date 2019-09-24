@@ -4,7 +4,7 @@
     <ul class="portfolio-list">
       <li>
         <a href="https://iggystooges.github.io/mishka/build/" class="">
-          <span>Портфолио (Стек VUE.JS, SASS, Vue-cli, Vue-router)</span>
+          <span>Портфолио (Стек Vue.JS, SASS, Vue-cli, Vue-router)</span>
           <img src="dist/portfolio.png" alt="mishka" width="200" height="200">
         </a>
       </li>
