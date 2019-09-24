@@ -4,20 +4,20 @@
     <ul class="portfolio-list">
       <li>
         <a href="https://iggystooges.github.io/mishka/build/" class="">
-          <span>Учебный проект "Мишка"(Стек: HTML, SASS, Gulp)</span>
-          <img src="./img/mishka.png" alt="mishka" width="200" height="200">
+          <span>Портфолио (Стек VUE.JS, SASS, Vue-cli, Vue-router)</span>
+          <img src="dist/portfolio.png" alt="mishka" width="200" height="200">
         </a>
       </li>
       <li>
         <a href="https://iggystooges.github.io/mishka/build/" class="">
           <span>Учебный проект "Мишка"(Стек: HTML, SASS, Gulp)</span>
-          <img src="./img/mishka.png" alt="mishka" width="200" height="200">
+          <img src="dist/mishka.png" alt="mishka" width="200" height="200">
         </a>
       </li>
       <li>
         <a href="https://iggystooges.github.io/581613-keksobooking/" class="">
           <span>Учебный проект "Кексобукинг"(Стек: JS (es5))</span>
-          <img src="./img/keksobooking.png" alt="keksobooking" width="200" height="200">
+          <img src="dist/keksobooking.png" alt="keksobooking" width="200" height="200">
         </a>
       </li>
     </ul>
@@ -28,7 +28,7 @@
   export default {
     data: function () {
       return {
-        title: "Мои работы"
+        title: "Мои работы",
       }
     },
   };
