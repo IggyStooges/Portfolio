@@ -3,10 +3,11 @@ import VueRouter from 'vue-router';
 
 Vue.use(VueRouter);
 
-import buttonVue from './assets/components/button.vue';
-import inputVue from './assets/components/input.vue';
-import calculator from './assets/components/calculator.vue';
-import list from './assets/components/list.vue';
+import buttonVue from './assets/components/button/button.vue';
+import calculator from './assets/components/calculator/calculator.vue';
+import mortgage from './assets/components/mortgage/mortgage.vue';
+import chameleon from './assets/components/chameleon/chameleon.vue';
+import portfolio from './assets/components/portfolio/portfolio.vue';
 import App from "./App.vue";
 
 const router = new VueRouter({
@@ -20,9 +21,14 @@ const router = new VueRouter({
       component: buttonVue
     },
     {
-      path: '/input',
-      name: 'input-vue',
-      component: inputVue
+      path: '/mortgage',
+      name: 'mortgage',
+      component: mortgage
+    },
+    {
+      path: '/chameleon',
+      name: 'chameleon',
+      component: chameleon
     },
     {
       path: '/calculator',
@@ -30,9 +36,9 @@ const router = new VueRouter({
       component: calculator
     },
     {
-      path: '/list',
-      name: 'list',
-      component: list
+      path: '/portfolio',
+      name: 'portfolio',
+      component: portfolio
     },
   ],
 });

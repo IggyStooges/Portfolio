@@ -1,7 +1,7 @@
-ul {
-  list-style: none;
-}
-
-.container {
-  display: flex;
-}
+@import "../components/app/app.scss";
+@import "../components/button/button.scss";
+@import "../components/nav-list/nav-list.scss";
+@import "../components/mortgage/mortgage.scss";
+@import "../components/chameleon/chameleon.scss";
+@import "../components/portfolio/portfolio.scss";
+@import "../components/calculator/calculator.scss";

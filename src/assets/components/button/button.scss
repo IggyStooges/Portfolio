@@ -1,0 +1,35 @@
+.click-counter {
+  display: block;
+  width: 35%;
+  padding: 1vw 0.5vw;
+  border: none;
+  background: linear-gradient(to top, #fefcea, #f1da36);
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(26, 13, 171);
+  letter-spacing: 1px;
+  border-radius: 20px;
+
+  &:hover {
+    background: linear-gradient(to top, #faf5c7, #f0d406);
+    color: rgb(221, 13, 171);
+  }
+
+  &:active {
+    background: linear-gradient(to top, #fff38b, #ccb400);
+    color: rgb(255, 0, 0);
+  }
+
+  &__degree {
+    background: linear-gradient(to top, #eaf6fe, #36f18a);
+
+    &:hover {
+      background: linear-gradient(to top, #aed5f0, #09f172);
+    }
+
+    &:active {
+      background: linear-gradient(to top, #90c3e7, #00aa4d);
+    }
+  }
+}

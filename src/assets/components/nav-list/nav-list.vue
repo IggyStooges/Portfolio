@@ -1,9 +1,9 @@
 <template>
-  <nav>
+  <nav class="nav">
+    <h1> {{ title }} </h1>
     <ul class="nav-list">
-      <span> {{ title }} </span>
-      <li>
-        <router-link :to="{name: 'input-vue'}">Перейти на страницу ввода
+      <li class="portfolio">
+        <router-link :to="{name: 'portfolio'}">Портфолио
         </router-link>
       </li>
       <li>
@@ -15,7 +15,11 @@
         </router-link>
       </li>
       <li>
-        <router-link :to="{name: 'list'}">Перейти на страницу списка
+        <router-link :to="{name: 'mortgage'}">Калькулятор ипотеки
+        </router-link>
+      </li>
+      <li>
+        <router-link :to="{name: 'chameleon'}">Хамелеон
         </router-link>
       </li>
     </ul>

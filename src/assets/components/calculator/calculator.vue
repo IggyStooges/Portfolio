@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <div class="component">
     <div class="container-fluid" style="width:50%;
               display: flex;
               justify-content: center;
               flex-wrap: wrap">
-      <button v-for="number in numbers" :key='number' class="button btn btn-light btn-outline-dark" @click="dial(number)">
+      <button v-for="number in numbers" :key='number' class="calculator-btn" @click="dial(number)">
         {{ number }}
       </button>
     </div>
@@ -12,17 +12,17 @@
             display: flex;
             justify-content: center;
             flex-wrap: wrap">
-      <button v-for="symbol in symbols" :key='symbol' class="button btn btn-outline-primary " @click="dial(symbol)">
+      <button v-for="symbol in symbols" :key='symbol' class="calculator-btn" @click="dial(symbol)">
         {{ symbol }}
       </button>
     </div>
-    <div class="container2 container" style="width:50%;
+    <div class="calculator-container" style="width:50%;
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
             flex-direction: column">
-      <button class="rawno btn btn-outline-primary" @click="calc">=</button>
-      <button class="reset btn btn-outline-danger" @click="reset">CE</button>
+      <button class="calculator-btn" @click="calc">=</button>
+      <button class="calculator-btn" @click="reset">CE</button>
       <input type="text" class="input form-control" style="text-align: center" v-model="result">
 
     </div>
@@ -53,8 +53,7 @@
             this.result += value;
             this.isResulted = false;
           }
-        }
-        else {
+        } else {
           this.result += value;
         }
       },

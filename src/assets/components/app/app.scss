@@ -1,0 +1,42 @@
+body {
+  font-family: serif;
+}
+
+.container {
+  display: flex;
+  margin: 0 2%;
+}
+
+.content-container {
+  width: 70%;
+  margin-left: auto;
+}
+
+.component {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.input {
+  display: block;
+  font-weight: bold;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  border-color: #1a32bd;
+  border-radius: 5px;
+  -moz-appearance: textfield;
+
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0;
+    /* <-- Apparently some margin are still there even though it's hidden */
+  }
+}

@@ -1,0 +1,48 @@
+
+.buttons-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5vh;
+}
+
+.payment-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.input,
+.label {
+  margin: 2vh;
+}
+
+.input {
+  padding: 1vh 1vw;
+  width: 70%;
+  box-sizing: border-box;
+  border: 2px solid #dfa5a5;
+  color: rgb(26, 13, 171);
+  background: linear-gradient(to top, #e9ebec, #e3f0e9);
+
+  &:hover {
+    border-color: #ff0505;
+  }
+
+  &:focus {
+    border-color: #e07171;
+    background: linear-gradient(to top, #d4e5ee, #88ffbf);
+  }
+}
+
+.calculation {
+  color: rgb(26, 13, 171);
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1vh;
+  border: 2px solid #dfa5a5;
+  border-radius: 5px;
+  background: linear-gradient(to top, #e9ebec, #e3f0e9);
+
+  span {
+    color: #db2121;
+  }
+}
