@@ -9,6 +9,12 @@
         </a>
       </li>
       <li>
+        <a href="https://iggystooges.github.io/veggie/build/" class="">
+          <span>Veggie (Стек: HTML, SASS, Gulp, JS)</span>
+          <img src="dist/veggie.png" alt="mishka" width="200" height="200">
+        </a>
+      </li>
+      <li>
         <a href="https://iggystooges.github.io/mishka/build/" class="">
           <span>Учебный проект "Мишка"(Стек: HTML, SASS, Gulp)</span>
           <img src="dist/mishka.png" alt="mishka" width="200" height="200">
