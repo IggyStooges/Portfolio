@@ -3,24 +3,24 @@
     <h2> {{ title }} </h2>
     <ul class="portfolio-list">
       <li>
-        <a href="https://iggystooges.github.io/mishka/build/" target="_blank" >
+        <a href="https://iggystooges.github.io/581613-cinemaddict-12/public/index.html" target="_blank" >
           <span>Учебный проект Cinemaddict (JS, Webpack, MVP, OOP)</span>
-          <img src="./img/mpn.png" alt="nmp" width="200" height="200">
+          <img src="./img/cinemaddict.png" alt="cinemaddict" width="200" height="200">
         </a>
-        <a href="https://github.com/IggyStooges/mk-test" target="_blank">Код проекта</a>
+        <a href="https://github.com/IggyStooges/581613-cinemaddict-12" class="portfolio-list__code" target="_blank">Код проекта</a>
       </li>
       <li>
         <a href="https://iggystooges.github.io/mishka/build/"  target="_blank" >
           <span>Тестовое задание (JS, SСSS, Webpack)</span>
           <img src="./img/mpn.png" alt="nmp" width="200" height="200">
         </a>
-        <a href="https://github.com/IggyStooges/mpn-test" target="_blank">Код проекта</a>
+        <a href="https://github.com/IggyStooges/mpn-test" target="_blank" class="portfolio-list__code">Код проекта</a>
       </li>
       <li>
         <a href="https://iggystooges.github.io/mk-test/public/index.html" target="_blank">
           <span>Тестовое задание МК (JS, SСSS, Webpack)</span>
           <img src="./img/mk.png" alt="mk" width="200" height="200">
-          <a href="https://github.com/IggyStooges/mk-test" target="_blank">Код проекта</a>
+          <a href="https://github.com/IggyStooges/mk-test" target="_blank" class="portfolio-list__code">Код проекта</a>
         </a>
       </li>
       <li>
